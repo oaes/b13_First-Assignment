@@ -115,3 +115,27 @@ text-align: center;
     margin-top: 20px;
     gap: 16px;
 }
+
+#note{
+    padding-top: 20px;
+}
+
+#note .noteContent{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#note .noteContent .sectionHeading{
+    justify-content: center;
+    text-align: center;
+
+}
+#note .noteContent .sectionHeading h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+#note .noteContent .sectionHeading p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
