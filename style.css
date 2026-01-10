@@ -39,6 +39,10 @@ nav .menu a{
     color: #000000;
     text-decoration: none;
 }
+.buttons{
+    justify-content: center;
+     box-sizing: border-box;
+}
 .myButton {
 
 	background-color:#ffffff00;
@@ -52,10 +56,7 @@ nav .menu a{
 	padding: 12px 16px 12px 16px;
 	text-decoration:none;
 }
-
-
-        
-.btn{
+        .btn{
     background-color: #30B868;
     border: none;
     border-radius: 5px;
@@ -105,4 +106,12 @@ text-align: center;
     line-height: 24px;
     text-align: center;
     color: #ffffff;
+}
+
+.banner-content .twoBtn{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    margin-top: 20px;
+    gap: 16px;
 }
